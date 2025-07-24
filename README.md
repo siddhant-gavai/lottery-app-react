@@ -1,12 +1,43 @@
-# React + Vite
+# 🎰 Lottery App - React Day-6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Lottery Application** built using **React**. It demonstrates the use of:
 
-Currently, two official plugins are available:
+- ✅ React **components**
+- 🔄 React **state management** using `useState`
+- 📬 **Props** to pass data
+- 🎯 Event handling via **Event Listeners**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Users can click a button to generate a random number (like a lottery spin).
+- Win or lose message is shown based on the generated number.
+- State is updated on every click.
+
+---
+
+## 📦 Tech Stack
+
+- React
+- JSX
+- useState Hook
+- JavaScript
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/siddhant-gavai/lottery-app-react.git
+
+# Go into the folder
+cd lottery-app-react
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+```
