@@ -1,0 +1,10 @@
+.ticket {
+  background-color: #f0f0f0;
+  border: 2px solid red;
+  box-shadow: 0 4px 8px rgba(116, 111, 111, 0.1);
+  color: black;
+  border-radius: 14px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
