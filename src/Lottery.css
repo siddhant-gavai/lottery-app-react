@@ -1,10 +1,56 @@
+/* Main container */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffe6e6, #e6f2ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Ticket Box */
 .ticket {
-  background-color: #f0f0f0;
-  border: 2px solid red;
-  box-shadow: 0 4px 8px rgba(116, 111, 111, 0.1);
-  color: black;
+  background-color: #fff;
+  border: 2px solid #ff5e5e;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  color: #333;
   border-radius: 14px;
-  padding: 10px;
-  width: 200px;
+  padding: 20px;
+  width: 250px;
   text-align: center;
+  margin: 20px auto;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 2px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  /* transition: background 0.3s ease;  */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #1b4f72;
+}
+
+/* Header & Message */
+h1 {
+  text-align: center;
+  color: #34495e;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+  font-size: 1.2rem;
 }
