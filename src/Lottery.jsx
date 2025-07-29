@@ -7,6 +7,7 @@ const Lottery = ({ n = 3, winCondition }) => {
   // let [ticket, setTicket] = useState([generateTicket(3)]);
   let [ticket, setTicket] = useState(generateTicket(n));
   let isWinning = winCondition(ticket);
+  // console.log("Ticket:", ticket, "→ Winning?", isWinning);
 
   const buyTicket = () => {
     setTicket(generateTicket(n));

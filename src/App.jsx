@@ -7,8 +7,8 @@ import Ticket from "./Ticket.jsx";
 import { sum } from "./helper";
 
 function App() {
-  let winCondition = (tikcet) => {
-    return sum(tikcet) === 10;
+  let winCondition = (ticket) => {
+    return ticket.every((num) => num === ticket[0] || sum(ticket) === 12);
   };
   return (
     <>
