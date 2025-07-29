@@ -3,10 +3,10 @@ import "./Lottery.css";
 import { generateTicket, sum } from "./helper";
 import Ticket from "./Ticket.jsx";
 
-const Lottery = ({ n = 3, winningSum = 12 }) => {
+const Lottery = ({ n = 3, winCondition }) => {
   // let [ticket, setTicket] = useState([generateTicket(3)]);
   let [ticket, setTicket] = useState(generateTicket(n));
-  let isWinning = sum(ticket) === winningSum;
+  let isWinning = winCondition(ticket);
 
   const buyTicket = () => {
     setTicket(generateTicket(n));
