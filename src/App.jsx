@@ -8,7 +8,7 @@ import Ticket from "./Ticket.jsx";
 function App() {
   return (
     <>
-      <Ticket ticket={[0, 1, 2, 3]} />
+      <Lottery n={3} winningSum={15} />
     </>
   );
 }
